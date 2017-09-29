@@ -8,7 +8,7 @@ import android.support.annotation.Nullable;
  * Created by abhishek on 29/9/17.
  */
 
-class UserPref extends BaseSharedPreference {
+public class UserPref extends BaseSharedPreference {
 
     private static final String PREF_NAME = "pref_user";
     private static final String KEY_NAME = "name";
